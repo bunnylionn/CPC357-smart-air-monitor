@@ -20,7 +20,7 @@ const char* serverUrl = "https://api-receiver-air-data-607019422067.asia-southea
 #define NUM_PIXELS    1     // Number of NeoPixels
 
 // Thresholds
-const int GAS_THRESHOLD = 1800; 
+const int GAS_THRESHOLD = 1300; 
 
 // Initialize NeoPixel
 Adafruit_NeoPixel pixels(NUM_PIXELS, NEOPIXEL_PIN, NEO_GRB + NEO_KHZ800);
