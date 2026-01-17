@@ -13,14 +13,14 @@ const char* password = "jannah03";
 // Google Cloud Function URL
 const char* serverUrl = "https://api-receiver-air-data-607019422067.asia-southeast1.run.app";
 
-// Pin Definitions (Specific to Maker Feather AIoT S3)
+// Pin Definitions 
 #define GAS_PIN       A2    // Analog pin for MQ-135
 #define BUZZER_PIN    12    // Built-in Piezo Buzzer
 #define NEOPIXEL_PIN  46    // Built-in NeoPixel LED
 #define NUM_PIXELS    1     // Number of NeoPixels
 
 // Thresholds
-const int GAS_THRESHOLD = 1800; // Adjust this based on your "clean air" readings (0-4095)
+const int GAS_THRESHOLD = 1800; 
 
 // Initialize NeoPixel
 Adafruit_NeoPixel pixels(NUM_PIXELS, NEOPIXEL_PIN, NEO_GRB + NEO_KHZ800);
