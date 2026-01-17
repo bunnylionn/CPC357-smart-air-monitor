@@ -26,7 +26,7 @@ functions.http('receiveAirData', async (req, res) => {
     
     // Determine status
     let status = "Normal";
-    if (gasValue > 1800) {
+    if (gasValue > 1300) {
         status = "WARNING";
     }
 
